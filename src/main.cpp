@@ -200,7 +200,7 @@ void loop()
   // If the controller is disconnected, disable the hoverboard
   if (!ps5.isConnected())
   {
-    Serial.println("Controller disconnected, disabling hoverboard");
+    //Serial.println("Controller disconnected, disabling hoverboard");
     // Add code here to disable the hoverboard
     // For example, you might want to stop sending commands to the hoverboard
   }
